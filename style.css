@@ -17,6 +17,10 @@ body {
 
 .project {
   display: flex;
+  flex-flow: row wrap;
+}
+.todo-list {
+  display: contents;
 }
 .todo,
 .create-todo {
@@ -45,4 +49,5 @@ body {
   font-size: 2rem;
   width: 4rem;
   height: 4rem;
+  cursor: pointer;
 }
