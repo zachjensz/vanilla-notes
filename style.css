@@ -1,0 +1,37 @@
+:root {
+  --bg: #111;
+  --bg1: #1a1a1a;
+  --text: #fefefe;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.project {
+  display: flex;
+}
+.todo,
+.create-todo {
+  min-width: 20ch;
+  min-height: 20ch;
+  margin: 1rem;
+}
+
+.todo {
+  background-color: var(--bg1);
+}
+.todo .title {
+
+}
+
+.create-todo {
+  display: grid;
+  place-content: center;
+}
