@@ -1,6 +1,6 @@
 :root {
   --bg: #111;
-  --bg1: #1a1a1a;
+  --bg1: #151515;
   --text: #fefefe;
 }
 
@@ -12,6 +12,7 @@ body {
   margin: 0;
   background-color: var(--bg);
   color: var(--text);
+  font-family: sans-serif;
 }
 
 .project {
@@ -22,16 +23,26 @@ body {
   min-width: 20ch;
   min-height: 20ch;
   margin: 1rem;
+  padding: 1rem;
 }
 
 .todo {
   background-color: var(--bg1);
 }
 .todo .title {
-
+  font-size: 1.5rem;
+  margin: 1em 0;
+}
+.todo .description {
+  margin: 1em 0;
 }
 
 .create-todo {
   display: grid;
   place-content: center;
+}
+.create-todo button {
+  font-size: 2rem;
+  width: 4rem;
+  height: 4rem;
 }
