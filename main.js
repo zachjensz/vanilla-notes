@@ -20,13 +20,3 @@ function renderTodo(todo) {
   el_todo.querySelector('.priority').innerText = todo.priority ?? 'no priority';
   el_todoList.appendChild(el_todo);
 }
-/*
-    <template id="todo">
-      <div class="todo">
-        <div class="title"></div>
-        <div class="description"></div>
-        <div class="dueDate"></div>
-        <div class="priority"></div>
-      </div>
-    </template>
-*/
