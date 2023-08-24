@@ -1,13 +1,12 @@
-import { todos, createTodo } from './logic.js';
+import { getTodos, createTodo } from './logic.js';
 
 const el_todoList = document.querySelector('.todo-list');
 const el_createTodo = document.querySelector('#create-todo');
 const tp_todo = document.querySelector('#template-todo');
 
-todos.forEach((todo) => renderTodo(todo));
+getTodos().forEach((todo) => renderTodo(todo));
 el_createTodo.addEventListener('click', () => {
   renderTodo(createTodo());
-  console.log(todos);
 });
 
 function renderTodo(todo) {
