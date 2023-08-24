@@ -6,3 +6,8 @@ export const todos = [
     priority: 1,
   },
 ];
+export const createTodo = () => {
+  const newTodo = {};
+  todos.push(newTodo);
+  return newTodo;
+};
