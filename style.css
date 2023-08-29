@@ -4,6 +4,10 @@
   --text: #fefefe;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   height: 100%;
@@ -18,6 +22,8 @@ body {
 .project {
   display: flex;
   flex-flow: row wrap;
+  padding: 1rem;
+  gap: 1rem;
 }
 .todo-list {
   display: contents;
@@ -26,7 +32,6 @@ body {
 .create-todo {
   min-width: 20ch;
   min-height: 20ch;
-  margin: 1rem;
   padding: 1rem;
 }
 
