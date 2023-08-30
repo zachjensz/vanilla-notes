@@ -33,6 +33,7 @@ body {
   min-width: 20ch;
   min-height: 20ch;
   padding: 1rem;
+  border-radius: 0.2em;
 }
 
 .todo {
